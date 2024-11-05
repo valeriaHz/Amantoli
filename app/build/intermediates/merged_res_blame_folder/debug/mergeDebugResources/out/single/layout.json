@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.amantoli.app-mergeDebugResources-30:/layout/activity_registro.xml",
+        "source": "com.example.amantoli.app-main-33:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.example.amantoli.app-mergeDebugResources-30:/layout/activity_menu_principal.xml",
+        "source": "com.example.amantoli.app-main-33:/layout/activity_menu_principal.xml"
+    },
+    {
+        "merged": "com.example.amantoli.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.amantoli.app-main-33:/layout/activity_main.xml"
+    }
+]
