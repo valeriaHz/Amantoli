@@ -12,6 +12,10 @@
         "source": "com.example.amantoli.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.amantoli.app-debug-31:/layout_activity_actualizar_usuario.xml.flat",
+        "source": "com.example.amantoli.app-main-33:/layout/activity_actualizar_usuario.xml"
+    },
+    {
         "merged": "com.example.amantoli.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.amantoli.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -54,6 +58,14 @@
     {
         "merged": "com.example.amantoli.app-debug-31:/layout_activity_menu_principal.xml.flat",
         "source": "com.example.amantoli.app-main-33:/layout/activity_menu_principal.xml"
+    },
+    {
+        "merged": "com.example.amantoli.app-debug-31:/layout_item_rv_usuario.xml.flat",
+        "source": "com.example.amantoli.app-main-33:/layout/item_rv_usuario.xml"
+    },
+    {
+        "merged": "com.example.amantoli.app-debug-31:/xml_network_security_config.xml.flat",
+        "source": "com.example.amantoli.app-main-33:/xml/network_security_config.xml"
     },
     {
         "merged": "com.example.amantoli.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",

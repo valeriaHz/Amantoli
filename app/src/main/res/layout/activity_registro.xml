@@ -12,64 +12,67 @@
         android:id="@+id/registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:text="Registro de Usuario"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <!-- Nombre -->
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/nombre"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Nombre"
-        android:inputType="textPersonName"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/registro"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/registro"/>
 
     <!-- Apellido Paterno -->
     <EditText
-        android:id="@+id/aPat"
+        android:id="@+id/aPaterno"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Apellido Paterno"
-        android:inputType="textPersonName"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/name"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/nombre"/>
 
     <!-- Apellido Materno -->
     <EditText
-        android:id="@+id/aMat"
+        android:id="@+id/aMaterno"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Apellido Materno"
-        android:inputType="textPersonName"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/aPat"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/aPaterno"/>
 
     <!-- Edad -->
     <EditText
-        android:id="@+id/age"
+        android:id="@+id/edad"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Edad"
         android:inputType="number"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/aMat"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/aMaterno" />
 
     <!-- Género -->
     <RadioGroup
@@ -82,7 +85,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/age">
+        app:layout_constraintTop_toBottomOf="@id/edad">
 
         <RadioButton
             android:id="@+id/radioMasculino"
@@ -104,72 +107,78 @@
     </RadioGroup>
 
     <!-- Fecha de nacimiento -->
-    <EditText
-        android:id="@+id/birthdate"
+
+    <Button
+        android:id="@+id/fechaNac"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Fecha de nacimiento"
-        android:inputType="number"
-        android:padding="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Fecha de nacimiento"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/radioGenero"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/radioGenero"/>
 
     <!-- Correo -->
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/correo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/birthdate"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/fechaNac"/>
 
     <!-- Contraseña -->
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/contraseña"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/correo"/>
 
     <!-- Botón de registrar -->
     <Button
         android:id="@+id/button_Registrar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:text="Registrar"
         android:textSize="12sp"
         android:backgroundTint="@color/green"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintTop_toBottomOf="@id/contraseña"/>
 
     <!-- Botón de regresar al login -->
     <Button
         android:id="@+id/button_cancelar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:text="Regresar al Login"
         android:textSize="12sp"
         android:backgroundTint="@color/blue"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_Registrar"
-        android:layout_marginTop="10dp"/>
-
+        app:layout_constraintTop_toBottomOf="@id/button_Registrar"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

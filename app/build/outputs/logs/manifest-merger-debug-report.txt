@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\vale\.gradle\caches\transforms-4\d5ef4183b147039a84b9dd8acb295c64\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\vale\.gradle\caches\transforms-4\86c9a9e55dc8d45fef0ed473fafdfd97\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vale\.gradle\caches\transforms-4\00a9d304153cff6bf102e5d15bd65c62\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -13,6 +13,7 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vale\.gradle\caches\
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\vale\.gradle\caches\transforms-4\bc7c8f183ad92d9b07f5544c3e1ee968\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.2] C:\Users\vale\.gradle\caches\transforms-4\a1b706a3bc352706732276385d11c57c\transformed\activity-1.9.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\44f3606a8882e85890281cbd677106f1\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vale\.gradle\caches\transforms-4\476b3dbf7c09a69a9d266eaae0eb69b6\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\vale\.gradle\caches\transforms-4\af36dc412fad7bb9d80efc751ad8882b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vale\.gradle\caches\transforms-4\7c846f2803511e77fcc638b27eb66be3\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vale\.gradle\caches\transforms-4\6812b513181f2c90981670b43c3099bf\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -24,7 +25,6 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vale\.gradle
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\b63ccf3dd1c99b0aedfb1f2839c3abf6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\fc1741c9e5b2f6c3a639025664181282\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\5c8319263ed5150692a3dd0d91210266\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\bb8791ccfa77b5291ed1cb0c796ddffc\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\b84f4be1226a610f8f1cc604711067c2\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\aad39a1c0706ab6a5a30470c2306073d\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\vale\.gradle\caches\transforms-4\392aaeb90eb77ed2c88278573b7e36b0\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -57,12 +57,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vale\.g
 	xmlns:android
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:7:5-32:19
-INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:7:5-32:19
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:7:5-40:19
+INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\vale\.gradle\caches\transforms-4\86c9a9e55dc8d45fef0ed473fafdfd97\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\vale\.gradle\caches\transforms-4\86c9a9e55dc8d45fef0ed473fafdfd97\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vale\.gradle\caches\transforms-4\00a9d304153cff6bf102e5d15bd65c62\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -84,51 +84,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\va
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\aad39a1c0706ab6a5a30470c2306073d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:15:9-46
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:16:9-46
+	android:networkSecurityConfig
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:13:9-69
 	android:dataExtractionRules
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.amantoli.MenuPrincipal
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:17:9-44
+activity#com.example.amantoli.UsuarioAdapter
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:19:13-37
-	android:name
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:18:13-42
-activity#com.example.amantoli.Registro
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:20:9-22:40
-	android:exported
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:22:13-37
-	android:name
 		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:21:13-37
-activity#com.example.amantoli.MainActivity
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:name
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:20:13-43
+activity#com.example.amantoli.ActualizarUsuario
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:23:13-46
+activity#com.example.amantoli.MenuPrincipal
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:26:13-42
+activity#com.example.amantoli.Registro
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:29:13-37
+activity#com.example.amantoli.MainActivity
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:exported
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml:37:27-74
 uses-sdk
 INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vale\AndroidStudioProjects\Amantoli\app\src\main\AndroidManifest.xml
@@ -151,6 +167,8 @@ MERGED from [androidx.activity:activity:1.9.2] C:\Users\vale\.gradle\caches\tran
 MERGED from [androidx.activity:activity:1.9.2] C:\Users\vale\.gradle\caches\transforms-4\a1b706a3bc352706732276385d11c57c\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\44f3606a8882e85890281cbd677106f1\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\44f3606a8882e85890281cbd677106f1\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vale\.gradle\caches\transforms-4\476b3dbf7c09a69a9d266eaae0eb69b6\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vale\.gradle\caches\transforms-4\476b3dbf7c09a69a9d266eaae0eb69b6\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\vale\.gradle\caches\transforms-4\af36dc412fad7bb9d80efc751ad8882b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\vale\.gradle\caches\transforms-4\af36dc412fad7bb9d80efc751ad8882b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vale\.gradle\caches\transforms-4\7c846f2803511e77fcc638b27eb66be3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
@@ -173,8 +191,6 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\vale\.gradle\caches\transfor
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\fc1741c9e5b2f6c3a639025664181282\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\5c8319263ed5150692a3dd0d91210266\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vale\.gradle\caches\transforms-4\5c8319263ed5150692a3dd0d91210266\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\bb8791ccfa77b5291ed1cb0c796ddffc\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\bb8791ccfa77b5291ed1cb0c796ddffc\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\b84f4be1226a610f8f1cc604711067c2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\vale\.gradle\caches\transforms-4\b84f4be1226a610f8f1cc604711067c2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.13.1] C:\Users\vale\.gradle\caches\transforms-4\aad39a1c0706ab6a5a30470c2306073d\transformed\core-1.13.1\AndroidManifest.xml:20:5-44

@@ -15,14 +15,14 @@
         android:text="Iniciar sesión"
         android:textSize="24sp"
         android:layout_marginTop="100dp"
-        app:layout_constraintBottom_toTopOf="@id/email_input"
+        app:layout_constraintBottom_toTopOf="@id/Correo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <!-- Campo de correo -->
     <EditText
-        android:id="@+id/email_input"
+        android:id="@+id/Correo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Correo electrónico"
@@ -31,12 +31,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_title"
-        app:layout_constraintBottom_toTopOf="@id/password_input"
+        app:layout_constraintBottom_toTopOf="@id/Contraseña"
         android:layout_marginTop="50dp"/>
 
     <!-- Campo de contraseña -->
     <EditText
-        android:id="@+id/password_input"
+        android:id="@+id/Contraseña"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Contraseña"
@@ -44,7 +44,7 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_input"
+        app:layout_constraintTop_toBottomOf="@id/Correo"
         app:layout_constraintBottom_toTopOf="@id/login_button"
         android:layout_marginTop="20dp"/>
 
@@ -59,7 +59,7 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_input"
+        app:layout_constraintTop_toBottomOf="@id/Contraseña"
         app:layout_constraintBottom_toTopOf="@id/register_button"
         android:layout_marginTop="20dp"/>
 
