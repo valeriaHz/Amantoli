@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-11-2024 a las 19:06:42
+-- Tiempo de generación: 12-11-2024 a las 05:14:51
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -28,36 +28,25 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `t_usuarios` (
-  `id_usuario` int(11) NOT NULL,
-  `nombre` varchar(250) DEFAULT NULL,
-  `apellidoPat` varchar(250) DEFAULT NULL,
-  `apellidoMat` varchar(250) DEFAULT NULL,
-  `edad` varchar(250) DEFAULT NULL,
-  `genero` varchar(250) DEFAULT NULL,
-  `correo` varchar(250) DEFAULT NULL,
-  `contraseña` varchar(250) DEFAULT NULL,
-  `fechaNac` varchar(250) DEFAULT NULL
+  `id_usuario` int(11) DEFAULT NULL,
+  `nombre` varchar(250) NOT NULL,
+  `apellidoPat` varchar(250) NOT NULL,
+  `apellidoMat` varchar(250) NOT NULL,
+  `edad` varchar(250) NOT NULL,
+  `genero` varchar(250) NOT NULL,
+  `correo` varchar(250) NOT NULL,
+  `contraseña` varchar(250) NOT NULL,
+  `fechaNac` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Índices para tablas volcadas
+-- Volcado de datos para la tabla `t_usuarios`
 --
 
---
--- Indices de la tabla `t_usuarios`
---
-ALTER TABLE `t_usuarios`
-  ADD PRIMARY KEY (`id_usuario`);
-
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `t_usuarios`
---
-ALTER TABLE `t_usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
+INSERT INTO `t_usuarios` (`id_usuario`, `nombre`, `apellidoPat`, `apellidoMat`, `edad`, `genero`, `correo`, `contraseña`, `fechaNac`) VALUES
+(1, 'Sarahi', 'Aguilar', 'Hernandez', '24', 'Femenino', 'sara@email.com', '123456789', '2000/09/13'),
+(3, 'Mauricio', 'Cristel', 'Montero', '29', 'Masculino', 'mauri@email.com', '97846532', '1995/05/17'),
+(4, 'Morrigan', 'Finel', 'Vera', '25', 'Otro', 'mor@email.com', '65897423', '1968/06/18');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
